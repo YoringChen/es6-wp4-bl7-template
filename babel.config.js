@@ -6,6 +6,15 @@ const presets = [
   ]
 ];
 
+const env = {
+  test: {
+    presets: [
+      '@babel/env'
+    ]
+  }
+}
+
 module.exports = {
-  presets
+  presets,
+  env
 }
